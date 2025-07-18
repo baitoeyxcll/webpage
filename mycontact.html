@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myprofile</title>
+
+     <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-image: url("https://png.pngtree.com/background/20211217/original/pngtree-business-gradient-bright-starry-background-picture-image_1595045.jpg");
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .contact-card {
+      background-color: #ffffffcc;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      width: 100%;
+      padding: 40px;
+    }
+
+    .contact-card h1 {
+      text-align: center;
+      color: #004466;
+      font-size: 36px;
+      margin-bottom: 30px;
+    }
+
+    .contact-info {
+      font-size: 20px;
+      color: #333;
+      line-height: 1.8;
+    }
+
+    .contact-info i {
+      margin-right: 10px;
+      color: #0077b6;
+    }
+
+    .contact-buttons {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .contact-buttons button {
+      background-color: #663399;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 10px;
+      margin: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .contact-buttons button:hover {
+      background-color: #e91e63;
+    }
+
+    @media (max-width: 500px) {
+      .contact-card {
+        padding: 25px;
+      }
+
+      .contact-card h1 {
+        font-size: 26px;
+      }
+
+      .contact-info {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+   
+<body>
+    <div class="contact-card">
+    <h1>ติดต่อฉัน</h1>
+
+    <div class="contact-info">
+      <p><i>📞</i> โทรศัพท์: 085-325-4910</p>
+      <p><i>📧</i> อีเมล: pennapa3568@gmail.com</p>
+      <p><i>📍</i> ที่อยู่: ชลบุรี, ประเทศไทย</p>
+      <p><i>💬</i> Facebook: <a href="https://www.facebook.com/share/19AuNELfis/?mibextid=wwXIfr" target="_blank">facebook.come</a></p>
+    </div>
+
+    <div class="contact-buttons">
+      <button onclick="location.href='myprofile.html'">MyProfile</button>
+      <button onclick="location.href='myitem.html'">Myitem</button>
+      <button onclick="window.open('http://202.44.47.45/fitm/')">FITM</button>
+    </div>
+  </div>
+</body>
+</html>

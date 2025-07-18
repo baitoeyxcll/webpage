@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myitem</title>
+    <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #fff0f5, #f0ffff);
+      padding: 40px 20px;
+      background-image: url("https://png.pngtree.com/background/20211217/original/pngtree-business-gradient-bright-starry-background-picture-image_1595045.jpg");
+    }
+
+    h1 {
+      text-align: center;
+      color: #ffffff;
+      margin-bottom: 40px;
+      font-size: 36px;
+    }
+
+    .item-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .item {
+      background-color: #ffffffcc;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .item h3 {
+      margin: 15px 0 10px;
+      font-size: 20px;
+      color: #333;
+    }
+
+    .item p {
+      font-size: 16px;
+      color: #666;
+    }
+
+    .back-btn {
+      display: block;
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .back-btn button {
+      background-color: #663399;
+      color: white;
+      padding: 12px 25px;
+      font-size: 16px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-btn button:hover {
+      background-color: #e91e63;
+    }
+  </style>
+</head>
+<body>
+     <h1>My Favorite Items</h1>
+
+  <div class="item-container">
+    <div class="item">
+      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b5/Alchemy_of_Souls.jpg/250px-Alchemy_of_Souls.jpg" alt="Item 1" style="width: 100%; object-position: top; object-fit: cover; display: block;">
+      <h3>Series</h3>
+      <p>Alchemy of souls</p>
+    </div>
+
+    <div class="item">
+      <img src="https://i.scdn.co/image/ab6761610000e5eb51636490d389e8d2ab96026e" alt="Item 2" style="width: 100%; object-position: top; object-fit: cover; display: block;">
+      <h3>K-POP</h3>
+      <p>Got7</p>
+    </div>
+
+    <div class="item">
+  <div style="width: 100%; height: 200px; overflow: hidden;">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3VuXpB8r16tMUkRYJ6D-oC8Y7TjxvcqqOaQ&s" alt="Item 3" style="width: 100%; object-position: top; object-fit: cover; display: block;">
+  </div>
+  <h3>Artist</h3>
+  <p>JayB</p>
+</div>
+
+  </div>
+
+  <div class="back-btn">
+    <button onclick="location.href='myprofile.html'">MyProfile</button>
+    <button onclick="location.href='mycontact.html'">Contact</button>
+    <button onclick="window.open('https://sites.google.com/itm.kmutnb.ac.th/it-fitm')">FITM-IT</button>
+  </div>
+
+</body>
+</html>
